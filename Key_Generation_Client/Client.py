@@ -38,7 +38,7 @@ print(f'The secret phrase is: {secret_phrase}')
 # This is th encrypted X
 encrypted_data = encrypt(secret_phrase, received_public_key)
 
-print("This is the encrypted format of the secret phrase")
+print("This is the encrypted format of the secret phrase.")
 print(encrypted_data)
 
 sock.send(encrypted_data)
